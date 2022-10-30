@@ -1,0 +1,143 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.75;
+    color: #68666C;
+    font-style: normal;
+}
+@media (max-width: 800px) {
+
+    .container{
+        width: 600px;
+    }
+}
+@media (max-width: 600px) {
+
+    .container{
+        width: 400px;
+    }
+}
+@media (max-width: 400px) {
+
+    .container{
+        width: 200px;
+    }
+}
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.image-circle {
+    border-radius: 10%;
+}
+.image-square{
+    border-radius: 5%;
+}
+
+h1{
+	color: #575F7D;
+    font-size: 32px;
+    font-weight: 900;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+#introduction p {
+    margin-bottom: 40px;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.btn_grey {
+    background-color: #778899;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.mail{
+    background-color:#778899;
+    font-size: 20px;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.container{
+	width: 900px;
+	margin: 40px auto;
+}
+
+.homeContact__wrap {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.row {
+    --bs-gutter-x: 30px;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+.sidebar{
+    position: fixed;
+    width: 200px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #DCDCDC;
+    border-radius: 4px;
+    padding: 15px 20px;
+}
+.page-content{
+    margin-left: 0px;
+}
+.sidebar ul{
+    list-style: none;
+    padding-left: 0px;
+    font-family: "Century Gothic", sans-serif;
+}
+
+.sidebar p{
+    font-size: 30px;
+    color: black;
+}
